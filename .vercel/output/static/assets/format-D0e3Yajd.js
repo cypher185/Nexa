@@ -1,0 +1,1 @@
+function e(e){return`₦`+Math.round((e??0)/100).toLocaleString(`en-NG`)}function t(e){return`₦`+((e??0)/100).toLocaleString(`en-NG`,{minimumFractionDigits:2,maximumFractionDigits:2})}function n(e){let t=typeof e==`string`?Number(e):e;return!Number.isFinite(t)||t<0?0:Math.round(t*100)}export{t as n,n as r,e as t};
